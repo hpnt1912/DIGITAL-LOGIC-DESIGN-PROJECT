@@ -1,0 +1,22 @@
+# Thư mục Quartus tự sinh khi biên dịch – mỗi máy tự biên dịch lại
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+*.qws
+*.bak
+*.rpt
+*.summary
+*.smsg
+*.done
+*.jdi
+*.pin
+*.sld
+*.qarlog
+
+# File khóa tạm của Word/WPS và hệ điều hành
+~$*
+.~lock.*
+Thumbs.db
+.DS_Store
