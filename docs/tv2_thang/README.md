@@ -24,17 +24,17 @@ docs/tv2_thang/images/  ảnh sơ đồ từng khối, ảnh VWF, ảnh báo cá
 - [x] ha, fa + VWF
 - [x] add4 → add32 + VWF
 - [x] incre32 (= add32 + const4) + VWF – **gửi TV1 ngay**
-- [ ] dec5_32 + VWF (sơ đồ + VWF đã có, cần chạy mô phỏng trên máy)
+- [x] dec5_32 + VWF
 - [ ] Kiểm chứng trên máy: menu University Program VWF, nối GND vào bus 32 bit
 
 ### Tuần 2
-- [ ] alu1 (MUX 4:1 tự vẽ bằng cổng) → alu4 → alu32 + VWF 12 dòng
-- [ ] alu_control + VWF 7 dòng
-- [ ] mux32_32 bằng LPM_MUX (**không pipeline**)
-- [ ] Bắt đầu reg_file
+- [x] alu1 (dùng mux4_1 tự vẽ) → alu4 → alu32 + VWF 12 dòng
+- [x] alu_control + VWF 7 dòng
+- [x] mux32_32 bằng LPM_MUX (**không pipeline**)
+- [x] Bắt đầu reg_file
 
 ### Tuần 3
-- [ ] reg_file + VWF 8 chu kỳ
+- [x] reg_file + VWF (14 ô, đã PASS các ô 0–240 ns)
 - [ ] Ghép top-level cùng TV1 (đối chiếu ports.md) – **Test 0 PASS**
 
 ### Tuần 4
