@@ -1562,16 +1562,6 @@ SIGNAL("WriteData[0]")
 	PARENT = "WriteData";
 }
 
-SIGNAL("WriteReg")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = BUS;
-	WIDTH = 5;
-	LSB_INDEX = 0;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
 SIGNAL("WriteReg[4]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -1620,6 +1610,11 @@ SIGNAL("WriteReg[0]")
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
 	PARENT = "WriteReg";
+}
+
+GROUP("WriteReg")
+{
+	MEMBERS = "WriteReg[4]", "WriteReg[3]", "WriteReg[2]", "WriteReg[1]", "WriteReg[0]";
 }
 
 TRANSITION_LIST("clk")
@@ -3326,7 +3321,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "WriteReg";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
+	RADIX = Unsigned;
 	TREE_INDEX = 3;
 	TREE_LEVEL = 0;
 	CHILDREN = 4, 5, 6, 7, 8;
@@ -3336,7 +3331,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "WriteReg[4]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
+	RADIX = Unsigned;
 	TREE_INDEX = 4;
 	TREE_LEVEL = 1;
 	PARENT = 3;
@@ -3346,7 +3341,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "WriteReg[3]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
+	RADIX = Unsigned;
 	TREE_INDEX = 5;
 	TREE_LEVEL = 1;
 	PARENT = 3;
@@ -3356,7 +3351,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "WriteReg[2]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
+	RADIX = Unsigned;
 	TREE_INDEX = 6;
 	TREE_LEVEL = 1;
 	PARENT = 3;
@@ -3366,7 +3361,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "WriteReg[1]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
+	RADIX = Unsigned;
 	TREE_INDEX = 7;
 	TREE_LEVEL = 1;
 	PARENT = 3;
@@ -3376,7 +3371,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "WriteReg[0]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
+	RADIX = Unsigned;
 	TREE_INDEX = 8;
 	TREE_LEVEL = 1;
 	PARENT = 3;
