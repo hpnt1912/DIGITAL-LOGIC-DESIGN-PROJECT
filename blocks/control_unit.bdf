@@ -492,7 +492,7 @@ applicable agreement for further details.
 	(pt 1232 448)
 )
 (connector
-	(text "ctr[8]" (rect 1209 488 1234 500)(font "Arial" ))
+	(text "ctrl[8]" (rect 1209 488 1238 500)(font "Arial" ))
 	(pt 1184 504)
 	(pt 1232 504)
 )
