@@ -1,6 +1,6 @@
 # TV2 – Thắng: Datapath (bộ cộng, ALU, ALU Control, Register File)
 
-Sổ tay hướng dẫn chi tiết từng bước: [`SoTay_TV2_Thang_Datapath.docx`](SoTay_TV2_Thang_Datapath.docx)
+Sổ tay hướng dẫn chi tiết từng bước: [`SoTay_TV2_Thang_Datapath_v2.docx`](SoTay_TV2_Thang_Datapath_v2.docx) (bản mới nhất, mục 1.2 có bảng file nào lưu ở đâu; bản cũ giữ để đối chiếu)
 
 ## Cấu trúc file của TV2 trong repo
 
