@@ -1,10 +1,10 @@
 # Quartus II settings file - MIPS pipeline 5 tang (kit DE2)
 set_global_assignment -name FAMILY "Cyclone II"
 set_global_assignment -name DEVICE EP2C35F672C6
-set_global_assignment -name TOP_LEVEL_ENTITY mips_pipeline
+set_global_assignment -name TOP_LEVEL_ENTITY incre32
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:45:00  November 22, 2026"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:45:00  NOVEMBER 22, 2026"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
@@ -26,3 +26,23 @@ set_global_assignment -name SEARCH_PATH ip
 set_global_assignment -name SDC_FILE mips_pipeline.sdc
 
 set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_global_assignment -name BDF_FILE blocks/basic/ha.bdf
+set_global_assignment -name BDF_FILE blocks/basic/fa.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE sim/tv2/ha.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_global_assignment -name VECTOR_WAVEFORM_FILE sim/tv2/fa.vwf
+set_global_assignment -name BDF_FILE blocks/basic/add4.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE sim/tv2/add4.vwf
+set_global_assignment -name BDF_FILE blocks/basic/add32.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE sim/tv2/add32.vwf
+set_global_assignment -name QIP_FILE ip/const4.qip
+set_global_assignment -name BDF_FILE blocks/basic/incre32.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE sim/tv2/incre32.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/github_git/repo/DIGITAL-LOGIC-DESIGN-PROJECT/sim/tv2/incre32.vwf"
