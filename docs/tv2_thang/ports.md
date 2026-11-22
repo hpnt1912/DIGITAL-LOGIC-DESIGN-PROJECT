@@ -6,7 +6,7 @@
 | fa | a, b, cin | s, cout |
 | add4 | a[3..0], b[3..0], cin | s[3..0], cout |
 | add32 | a[31..0], b[31..0] | s[31..0] |
-| inc32 | a[31..0] | y[31..0] |
+| incre32 | a[31..0] | y[31..0] |
 | dec5_32 | a[4..0], en | eq[31..0] |
 | alu1 | a, b, Binvert, CarryIn, Less, Op[1..0] | Result, CarryOut, Sum |
 | alu4 | a[3..0], b[3..0], Binvert, CarryIn, Less0, Op[1..0] | Result[3..0], CarryOut, Sum3, C3 |
@@ -21,7 +21,7 @@ Giả định chân reg32 của TV1: vào `d[31..0], en, clr, clk, reset` – ra
 
 | Khối | Chân | Net ở top-level |
 | --- | --- | --- |
-| inc32 | a → y | PC[31..0] → PC4[31..0] |
+| incre32 | a → y | PC[31..0] → PC4[31..0] |
 | reg_file | ReadReg1, ReadReg2 | IF_ID_Instr[25..21], IF_ID_Instr[20..16] |
 | reg_file | WriteReg, WriteData, RegWrite | MEM_WB_WriteReg[4..0], WB_Data[31..0], MEM_WB_ctrl[1] |
 | reg_file | ReadData1, ReadData2 | ID_RD1[31..0], ID_RD2[31..0] |

@@ -29,7 +29,7 @@ Mỗi bộ giá trị giữ 20 ns. Xem bus ở dạng Hexadecimal. Đánh dấu 
 | 7FFFFFFF | 00000001 | 80000000 | ☐ |
 | 0000000C | FFFFFFF8 | 00000004 | ☐ |
 
-## inc32
+## incre32 (PC + 4)
 | a | y đúng | PASS |
 | --- | --- | --- |
 | 00000000 | 00000004 | ☐ |
@@ -38,10 +38,14 @@ Mỗi bộ giá trị giữ 20 ns. Xem bus ở dạng Hexadecimal. Đánh dấu 
 | FFFFFFFC | 00000000 | ☐ |
 | 00000003 | 00000007 | ☐ |
 
-## dec5_32
+## dec5_32 (file sim/tv2/dec5_32.vwf đã có sẵn kích thích)
+0–640 ns: en = 1, a đếm 0, 1, …, 31 (mỗi giá trị 20 ns) → eq phải lần lượt là 00000001, 00000002, 00000004, …, 80000000 (chỉ đúng 1 bit bằng 1, dịch dần sang trái).
+640–1000 ns: en = 0, a tiếp tục đếm → eq phải luôn 00000000.
+
 | a[4..0] | en | eq[31..0] đúng | PASS |
 | --- | --- | --- | --- |
 | 0 | 1 | 00000001 | ☐ |
+| 1 | 1 | 00000002 | ☐ |
 | 8 | 1 | 00000100 | ☐ |
 | 13 | 1 | 00002000 | ☐ |
 | 31 | 1 | 80000000 | ☐ |

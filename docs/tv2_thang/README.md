@@ -5,7 +5,7 @@ Sổ tay hướng dẫn chi tiết từng bước: [`SoTay_TV2_Thang_Datapath_v2
 ## Cấu trúc file của TV2 trong repo
 
 ```
-blocks/basic/   ha, fa, add4, add32, inc32, dec5_32 (.bdf + .bsf)
+blocks/basic/   ha, fa, add4, add32, incre32, dec5_32 (.bdf + .bsf)
 blocks/         alu1, alu4, alu32, alu_control, reg_file, (hex7seg) (.bdf + .bsf)
 ip/             mux32_32 (LPM_MUX), zero32 (nếu cần)
 sim/tv2/        *.vwf unit test + test_vectors.md
@@ -18,13 +18,13 @@ docs/tv2_thang/images/  ảnh sơ đồ từng khối, ảnh VWF, ảnh báo cá
 ### Ngày 1
 - [ ] Cài Quartus II 13.0 SP1 + Cyclone II + ModelSim-Altera, thử VWF
 - [ ] Chốt chân (ports.md) với nhóm; chốt chân reg32 với TV1
-- [ ] Tạo khối rỗng inc32, add32, alu32, alu_control, reg_file và push
+- [ ] Tạo khối rỗng incre32, add32, alu32, alu_control, reg_file và push
 
 ### Tuần 1
-- [ ] ha, fa + VWF
-- [ ] add4 → add32 + VWF
-- [ ] inc32 + VWF – **gửi TV1 ngay**
-- [ ] dec5_32 + VWF
+- [x] ha, fa + VWF
+- [x] add4 → add32 + VWF
+- [x] incre32 (= add32 + const4) + VWF – **gửi TV1 ngay**
+- [ ] dec5_32 + VWF (sơ đồ + VWF đã có, cần chạy mô phỏng trên máy)
 - [ ] Kiểm chứng trên máy: menu University Program VWF, nối GND vào bus 32 bit
 
 ### Tuần 2
