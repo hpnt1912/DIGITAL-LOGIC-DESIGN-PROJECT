@@ -39,7 +39,7 @@ SIGNAL("a[4]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "a";
+	PARENT = "";
 }
 
 SIGNAL("a[3]")
@@ -49,7 +49,7 @@ SIGNAL("a[3]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "a";
+	PARENT = "";
 }
 
 SIGNAL("a[2]")
@@ -59,7 +59,7 @@ SIGNAL("a[2]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "a";
+	PARENT = "";
 }
 
 SIGNAL("a[1]")
@@ -69,7 +69,7 @@ SIGNAL("a[1]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "a";
+	PARENT = "";
 }
 
 SIGNAL("a[0]")
@@ -79,7 +79,7 @@ SIGNAL("a[0]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "a";
+	PARENT = "";
 }
 
 SIGNAL("en")
@@ -99,7 +99,7 @@ SIGNAL("eq[31]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[30]")
@@ -109,7 +109,7 @@ SIGNAL("eq[30]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[29]")
@@ -119,7 +119,7 @@ SIGNAL("eq[29]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[28]")
@@ -129,7 +129,7 @@ SIGNAL("eq[28]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[27]")
@@ -139,7 +139,7 @@ SIGNAL("eq[27]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[26]")
@@ -149,7 +149,7 @@ SIGNAL("eq[26]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[25]")
@@ -159,7 +159,7 @@ SIGNAL("eq[25]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[24]")
@@ -169,7 +169,7 @@ SIGNAL("eq[24]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[23]")
@@ -179,7 +179,7 @@ SIGNAL("eq[23]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[22]")
@@ -189,7 +189,7 @@ SIGNAL("eq[22]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[21]")
@@ -199,7 +199,7 @@ SIGNAL("eq[21]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[20]")
@@ -209,7 +209,7 @@ SIGNAL("eq[20]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[19]")
@@ -219,7 +219,7 @@ SIGNAL("eq[19]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[18]")
@@ -229,7 +229,7 @@ SIGNAL("eq[18]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[17]")
@@ -239,7 +239,7 @@ SIGNAL("eq[17]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[16]")
@@ -249,7 +249,7 @@ SIGNAL("eq[16]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[15]")
@@ -259,7 +259,7 @@ SIGNAL("eq[15]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[14]")
@@ -269,7 +269,7 @@ SIGNAL("eq[14]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[13]")
@@ -279,7 +279,7 @@ SIGNAL("eq[13]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[12]")
@@ -289,7 +289,7 @@ SIGNAL("eq[12]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[11]")
@@ -299,7 +299,7 @@ SIGNAL("eq[11]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[10]")
@@ -309,7 +309,7 @@ SIGNAL("eq[10]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[9]")
@@ -319,7 +319,7 @@ SIGNAL("eq[9]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[8]")
@@ -329,7 +329,7 @@ SIGNAL("eq[8]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[7]")
@@ -339,7 +339,7 @@ SIGNAL("eq[7]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[6]")
@@ -349,7 +349,7 @@ SIGNAL("eq[6]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[5]")
@@ -359,7 +359,7 @@ SIGNAL("eq[5]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[4]")
@@ -369,7 +369,7 @@ SIGNAL("eq[4]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[3]")
@@ -379,7 +379,7 @@ SIGNAL("eq[3]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[2]")
@@ -389,7 +389,7 @@ SIGNAL("eq[2]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[1]")
@@ -399,7 +399,7 @@ SIGNAL("eq[1]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
 }
 
 SIGNAL("eq[0]")
@@ -409,7 +409,17 @@ SIGNAL("eq[0]")
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "eq";
+	PARENT = "";
+}
+
+GROUP("a")
+{
+	MEMBERS = "a[4]", "a[3]", "a[2]", "a[1]", "a[0]";
+}
+
+GROUP("eq")
+{
+	MEMBERS = "eq[31]", "eq[30]", "eq[29]", "eq[28]", "eq[27]", "eq[26]", "eq[25]", "eq[24]", "eq[23]", "eq[22]", "eq[21]", "eq[20]", "eq[19]", "eq[18]", "eq[17]", "eq[16]", "eq[15]", "eq[14]", "eq[13]", "eq[12]", "eq[11]", "eq[10]", "eq[9]", "eq[8]", "eq[7]", "eq[6]", "eq[5]", "eq[4]", "eq[3]", "eq[2]", "eq[1]", "eq[0]";
 }
 
 TRANSITION_LIST("a[4]")
@@ -417,7 +427,9 @@ TRANSITION_LIST("a[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 320.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 280.0;
 		LEVEL 1 FOR 320.0;
 		LEVEL 0 FOR 320.0;
 		LEVEL 1 FOR 40.0;
@@ -429,7 +441,9 @@ TRANSITION_LIST("a[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 160.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 120.0;
 		LEVEL 1 FOR 160.0;
 		LEVEL 0 FOR 160.0;
 		LEVEL 1 FOR 160.0;
@@ -444,7 +458,9 @@ TRANSITION_LIST("a[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 80.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 80.0;
 		LEVEL 0 FOR 80.0;
 		LEVEL 1 FOR 80.0;
@@ -465,8 +481,8 @@ TRANSITION_LIST("a[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 50.0;
 		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 40.0;
 		LEVEL 0 FOR 40.0;
@@ -556,7 +572,9 @@ TRANSITION_LIST("en")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 640.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 560.0;
 		LEVEL 0 FOR 360.0;
 	}
 }
@@ -853,7 +871,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "a";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
+	RADIX = Binary;
 	TREE_INDEX = 0;
 	TREE_LEVEL = 0;
 	CHILDREN = 1, 2, 3, 4, 5;
@@ -863,7 +881,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "a[4]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
+	RADIX = Binary;
 	TREE_INDEX = 1;
 	TREE_LEVEL = 1;
 	PARENT = 0;
@@ -873,7 +891,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "a[3]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
+	RADIX = Binary;
 	TREE_INDEX = 2;
 	TREE_LEVEL = 1;
 	PARENT = 0;
@@ -883,7 +901,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "a[2]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
+	RADIX = Binary;
 	TREE_INDEX = 3;
 	TREE_LEVEL = 1;
 	PARENT = 0;
@@ -893,7 +911,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "a[1]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
+	RADIX = Binary;
 	TREE_INDEX = 4;
 	TREE_LEVEL = 1;
 	PARENT = 0;
@@ -903,7 +921,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "a[0]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
+	RADIX = Binary;
 	TREE_INDEX = 5;
 	TREE_LEVEL = 1;
 	PARENT = 0;
