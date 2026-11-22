@@ -59,7 +59,7 @@ Mỗi bộ giá trị giữ 20 ns. Xem bus ở dạng Hexadecimal. Đánh dấu 
 | 1 | 1 | 0 | 1 | 0 | 10 | 1 | 1 | ☐ |
 | 1 | 1 | 1 | 1 | 0 | 10 | 0 | 1 | ☐ |
 | 0 | 0 | 0 | 0 | 1 | 11 | 1 | 0 | ☐ |
-| 0 | 1 | 1 | 1 | 0 | 00 | 0 | 1 | ☐ |
+| 0 | 1 | 1 | 1 | 0 | 00 | 0 | 0 | ☐ |
 
 ## alu4
 | a | b | Binvert | CarryIn | Op | Result đúng | PASS |
