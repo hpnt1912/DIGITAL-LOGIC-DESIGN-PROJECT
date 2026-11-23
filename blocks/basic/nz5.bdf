@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(output)
 	(rect 760 264 936 280)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "or6" (rect 90 0 105 12)(font "Arial" ))
+	(text "nz" (rect 90 0 100 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
