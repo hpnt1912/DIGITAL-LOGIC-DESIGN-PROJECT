@@ -69,8 +69,17 @@ set_global_assignment -name BDF_FILE blocks/basic/mux4_4.bdf
 set_global_assignment -name BDF_FILE blocks/sign_ext.bdf
 set_global_assignment -name BDF_FILE blocks/if_id_reg.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE sim/tv3/if_id_reg.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/THINH PC/Documents/Thiet ke luan ly so - CE118/PROJECT/DIGITAL-LOGIC-DESIGN-PROJECT/sim/tv3/if_id_reg.vwf"
 set_global_assignment -name BDF_FILE blocks/basic/mux4_32.bdf
+set_global_assignment -name BDF_FILE blocks/id_ex_reg.bdf
+set_global_assignment -name BDF_FILE blocks/ex_mem_reg.bdf
+set_global_assignment -name BDF_FILE blocks/mem_wb_reg.bdf
+set_global_assignment -name BDF_FILE blocks/forwarding_unit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE sim/tv3/forwarding_unit.vwf
+set_global_assignment -name BDF_FILE blocks/hazard_unit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE sim/tv3/hazard_unit.vwf
+set_global_assignment -name BDF_FILE blocks/branch_unit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE sim/tv3/branch_unit.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/THINH PC/Documents/Thiet ke luan ly so - CE118/PROJECT/DIGITAL-LOGIC-DESIGN-PROJECT/sim/tv3/branch_unit.vwf"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

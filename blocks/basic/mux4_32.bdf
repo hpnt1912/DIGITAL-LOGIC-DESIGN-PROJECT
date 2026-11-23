@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 112 160 280 176)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "I0[31..0]" (rect 5 0 36 10)(font "Arial" (font_size 6)))
+	(text "I0[31..0]" (rect 5 0 35 10)(font "Arial" (font_size 6)))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 112 176 280 192)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "I1[31..0]" (rect 5 0 36 10)(font "Arial" (font_size 6)))
+	(text "I1[31..0]" (rect 5 0 35 10)(font "Arial" (font_size 6)))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 112 192 280 208)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "I2[31..0]" (rect 5 0 36 10)(font "Arial" (font_size 6)))
+	(text "I2[31..0]" (rect 5 0 35 10)(font "Arial" (font_size 6)))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect 112 208 280 224)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "I3[31..0]" (rect 5 0 36 10)(font "Arial" (font_size 6)))
+	(text "I3[31..0]" (rect 5 0 35 10)(font "Arial" (font_size 6)))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -756,12 +756,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "I[31..28]" (rect 709 592 739 602)(font "Arial" (font_size 6)))
-	(pt 688 600)
-	(pt 720 600)
-	(bus)
-)
-(connector
 	(text "I1[31..28]" (rect 706 608 741 618)(font "Arial" (font_size 6)))
 	(pt 688 616)
 	(pt 720 616)
@@ -822,22 +816,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 576 184)
-	(pt 576 176)
-	(bus)
-)
-(connector
-	(pt 568 184)
-	(pt 576 184)
-	(bus)
-)
-(connector
-	(text "Y[3..0]" (rect 569 168 593 178)(font "Arial" (font_size 6)))
-	(pt 576 176)
-	(pt 608 176)
-	(bus)
-)
-(connector
 	(text "Y[23..20]" (rect 849 320 883 330)(font "Arial" (font_size 6)))
 	(pt 848 328)
 	(pt 888 328)
@@ -847,5 +825,17 @@ applicable agreement for further details.
 	(text "Y[27..24]" (rect 849 448 883 458)(font "Arial" (font_size 6)))
 	(pt 848 456)
 	(pt 888 456)
+	(bus)
+)
+(connector
+	(text "Y[3..0]" (rect 569 176 593 186)(font "Arial" (font_size 6)))
+	(pt 568 184)
+	(pt 608 184)
+	(bus)
+)
+(connector
+	(text "I0[31..28]" (rect 709 592 744 602)(font "Arial" (font_size 6)))
+	(pt 688 600)
+	(pt 720 600)
 	(bus)
 )
