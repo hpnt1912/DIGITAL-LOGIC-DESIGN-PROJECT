@@ -65,3 +65,18 @@ set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_RO
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name VECTOR_WAVEFORM_FILE sim/tv2/reg_file.vwf
+
+# Khoi co ban va khoi chuc nang cua TV1 (them vao project theo muc 4.1)
+set_global_assignment -name BDF_FILE blocks/basic/reg1.bdf
+set_global_assignment -name BDF_FILE blocks/basic/reg2.bdf
+set_global_assignment -name BDF_FILE blocks/basic/reg4.bdf
+set_global_assignment -name BDF_FILE blocks/basic/reg5.bdf
+set_global_assignment -name BDF_FILE blocks/basic/reg10.bdf
+set_global_assignment -name BDF_FILE blocks/basic/reg32.bdf
+set_global_assignment -name BDF_FILE blocks/basic/mux21.bdf
+set_global_assignment -name BDF_FILE blocks/basic/mu21_4bit.bdf
+set_global_assignment -name BDF_FILE blocks/basic/mux21_5bit.bdf
+set_global_assignment -name BDF_FILE blocks/basic/mux21_16bit.bdf
+set_global_assignment -name BDF_FILE blocks/basic/mux21_32bit.bdf
+set_global_assignment -name BDF_FILE blocks/decode_opcode.bdf
+set_global_assignment -name BDF_FILE blocks/control_unit.bdf

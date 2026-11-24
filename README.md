@@ -22,6 +22,8 @@ blocks/                           khối chức năng (control, ALU, register fi
 ip/                               khối thư viện MegaWizard (ROM, RAM, LPM_MUX, bộ đếm)
 mif/                              chương trình test (.mif)
 sim/                              kịch bản mô phỏng (.vwf)
+docs/de_bai/                      đề bài CE118 + tài liệu hướng dẫn đồ án (.pdf/.docx)
+docs/tv2_thang/                   sổ tay, nhật ký, bảng chân, báo cáo datapath của TV2
 docs/                             tài liệu, ảnh sơ đồ, waveform, báo cáo
 ```
 
